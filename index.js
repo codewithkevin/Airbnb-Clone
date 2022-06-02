@@ -35,12 +35,18 @@ function Navbar() {
     )
 }
 
+function Maincontent() {
+    return (
+       <h1>Welcome to my website</h1>
+    )
+}
+
 
 
 ReactDOM.render(
     <div>
         <Navbar/>
-        <h1>Hello World</h1>
+        <Maincontent />
     </div>,
     document.getElementById('root')
 );
