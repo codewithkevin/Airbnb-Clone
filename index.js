@@ -40,7 +40,7 @@ function Navbar() {
 ReactDOM.render(
     <div>
         <Navbar/>
-        
+        <h1>Hello World</h1>
     </div>,
     document.getElementById('root')
 );
