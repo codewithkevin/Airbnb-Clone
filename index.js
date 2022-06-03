@@ -11,6 +11,15 @@ const element =
         <p>lorem Ips</p>
     </div>
 
+const list = (
+    <div className="list">
+        <ul>
+            <li>Welcome</li>
+            <li>To</li>
+            <li>Ghana</li>
+        </ul>
+    </div>
+)
 
 function New(){
     return (
@@ -19,9 +28,6 @@ function New(){
 }
 
 ReactDOM.render(
-    <div> 
-        <h1>Hello World</h1>
-        <p>lorem Ips</p>
-    </div>, 
+    element, 
     document.getElementById('root')
 )
