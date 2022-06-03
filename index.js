@@ -41,12 +41,21 @@ function Maincontent() {
     )
 }
 
-
+function Hello() {
+    return (
+        <div>
+            <p>
+                Hello, my name is <strong>Rajat</strong>
+            </p>
+        </div>
+    )
+}
 
 ReactDOM.render(
     <div>
         <Navbar/>
         <Maincontent />
+        <Hello />
     </div>,
     document.getElementById('root')
 );
