@@ -5,8 +5,16 @@ import './Hero.css';
 
 const Herosection = () => {
     return (
-        <div className="hero">
-            <img src={Hero} className="img-responsive" alt="hero" />
+        <div className="hero align-center">
+            <img src={Hero}  alt="hero" />
+
+            <h1>Online Experience</h1>
+            <p>Join unique interactive activities
+                led by one-of-a-kind hosts-all without 
+                leaving home.
+            </p>
+
+            
         </div>
     );
 }
