@@ -13,6 +13,5 @@ body{
     margin: 0 auto; /*Center the container horizontally in the middle of the page.*/
     padding: 12px;
     color: white;
-    justify-self: center;
-    
+    justify-self: center;   
 }
