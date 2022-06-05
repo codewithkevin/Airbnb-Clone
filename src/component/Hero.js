@@ -6,7 +6,7 @@ import './Hero.css';
 const Herosection = () => {
     return (
         <div className="hero">
-            <img src={Hero} alt="hero" />
+            <img src={Hero} className="img-responsive" alt="hero" />
         </div>
     );
 }
