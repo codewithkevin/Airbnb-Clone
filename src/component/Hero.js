@@ -6,10 +6,10 @@ import './Hero.css';
 const Herosection = () => {
     return (
         <div className="hero align-center">
-            <img src={Hero}  alt="hero" />
+            <img src={Hero} className="hero" alt="hero" />
 
-            <h1>Online Experience</h1>
-            <p>Join unique interactive activities
+            <h1 className="title">Online Experience</h1>
+            <p className='text'>Join unique interactive activities
                 led by one-of-a-kind hosts-all without 
                 leaving home.
             </p>

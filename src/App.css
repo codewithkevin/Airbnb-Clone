@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    max-width: 960px; /*Limits the width of the container but let's it get smaller if needed.*/
+    margin: 0 auto; /*Center the container horizontally in the middle of the page.*/
+    padding: 12px;
+    color: white;
+    justify-self: center;
+    
+}
