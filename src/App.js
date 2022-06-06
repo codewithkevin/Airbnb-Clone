@@ -27,6 +27,16 @@ const App = () => {
           star={Star}
           name= 'The Big Lebowski'
         />
+        <Experience 
+          img={Image}
+          star={Star}
+          name= 'The Big Lebowski'
+        />
+        <Experience 
+          img={Image}
+          star={Star}
+          name= 'The Big Lebowski'
+        />
         
       </div>    
 
