@@ -6,7 +6,7 @@ const Experience = (
     {
         img,
         star,
-        name
+        name,
     }
 ) => {
     
