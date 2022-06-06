@@ -1,18 +1,23 @@
 .card-section {
     width: 175px;
     font-size: 12px;
+    font-size: 12px;
     display: inline-block;
     margin-right: 10px;
     margin-bottom: 10px;
     vertical-align: top;
 }
 
-.card-image {
+.card--image {
     width: 100%;
     border-radius: 9px;
 }
 
-.card--star {
+.card--stats {
     display: flex;
     align-items: center;
+}
+
+.card--star {
+    height: 14px;
 }
