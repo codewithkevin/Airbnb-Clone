@@ -8,8 +8,14 @@ import Star from "./Images/Star 1-1.png";
 import Navbar from './component/Navbar';
 import Herosection from './component/Hero';
 import Experience from './component/Experience';
+import Data from './component/Data';
 
 const App = () => {
+
+  const data = Data.map(item => {
+    
+  });
+
   return (
     <div className='App'>
       
