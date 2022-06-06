@@ -12,8 +12,17 @@ import Data from './component/Data';
 
 const App = () => {
 
-  const data = Data.map(item => {
-    
+  const cards = Data.map(item => {
+    return (
+      <Experience
+        img={item.coverImg}
+        rating={item.stats.rating}
+        reviewCount={item.stats.reviewCount}
+        price={item.price}
+        location={item.location}
+        openSpots={item.openSpots}
+      />
+    );
   });
 
   return (
