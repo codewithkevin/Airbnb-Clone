@@ -30,12 +30,12 @@ const App = () => {
         <Experience 
           img={Image}
           star={Star}
-          name= 'The Big Lebowski'
+          name= 'Angela Wu'
         />
         <Experience 
           img={Image}
           star={Star}
-          name= 'The Big Lebowski'
+          name= 'Micheal'
         />
         
       </div>    
