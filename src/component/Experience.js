@@ -9,14 +9,24 @@ const Experience = (props) => {
             <img src={props.img} className="card-imgage" alt="..." />
             <div className="card--stats">
                 <img src={props.star} className="card--star" alt="..." />
-                <span>5.0</span>
-                <span className="gray">{props.rating}</span>
-                <span className="gray">{props.country}</span>
+                <span>{props.rating}</span>
+                <span className="gray">{props.reviewCount}</span>
+                <span className="gray">{props.location}</span>
             
             </div>    
             <p>{props.title}</p>
-            <p><span>From {props.prices}</span></p>
+            <p><span>From ${props.price}</span></p>
         </div>
+
+        // <img src={`../images/${props.img}`} className="card--image" />
+        // <div className="card--stats">
+        //     <img src="../images/star.png" className="card--star" />
+        //     <span>{props.rating}</span>
+        //     <span className="gray">({props.reviewCount}) • </span>
+        //     <span className="gray">{props.location}</span>
+        // </div>
+        // <p>{props.title}</p>
+        // <p><span className="bold">From ${props.price}</span> / person</p>
 
     )
 };

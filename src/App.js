@@ -15,6 +15,7 @@ const App = () => {
     return (
       <Experience
         img={item.coverImg}
+        star={item.Starimage}
         rating={item.stats.rating}
         reviewCount={item.stats.reviewCount}
         description={item.description}
