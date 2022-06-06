@@ -1,8 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-// import Image from "./Images/image 12.png";
-// import Star from "./Images/Star 1-1.png";
+import Image from "./Images/image 12.png";
+import Star from "./Images/Star 1-1.png";
 
 
 import Navbar from './component/Navbar';
@@ -23,13 +23,29 @@ const App = () => {
 
       <div className='Experience'>
         <Experience 
+          img={Image}
+          star={Star}
+          title='The Space'
+          country='United States'
+          rating='4.5'
+          prices='$100'
           
         />
         <Experience 
-         
+         img={Image}
+         star={Star}
+         title='The Space'
+         country='United States'
+         rating='4.5'
+         prices='$100'
         />
         <Experience 
-          
+          img={Image}
+          star={Star}
+          title='The Space'
+          country='United States'
+          rating='4.5'
+          prices='$100'
         />
         
       </div>    

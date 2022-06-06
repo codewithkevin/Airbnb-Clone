@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from './images/Group 77.png';
+import Hero from './Images/Group 77.png';
 
 import './Hero.css';
 
