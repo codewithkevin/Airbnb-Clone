@@ -8,3 +8,7 @@
     border-radius: 9px;
 }
 
+.card--star {
+    display: flex;
+    align-items: center;
+}
