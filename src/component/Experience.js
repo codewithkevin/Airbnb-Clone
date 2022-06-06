@@ -1,27 +1,20 @@
 import React from 'react';
-import './Experience.css';
+import './Experience.css'
 
 
-const Experience = (
-    {
-        img,
-        star,
-        name,
-    }
-) => {
-    
+const Experience = (props) => {
     return (
         <div className="card-section">
-            <img src={img} className="card-image" alt="..." />
+            <img src={props.img} className="card-imgage" alt="..." />
             <div className="card--stats">
-                <img src={star} className="card--star" alt="..." />
+                <img src={props.star} className="card--star" alt="..." />
                 <span>5.0</span>
-                <span className="gray">(6) .</span>
-                <span className="gray">USA</span>
+                <span className="gray">{props.rating}</span>
+                <span className="gray">{props.country}</span>
             
             </div>    
-            <p>{name}</p>
-            <p><span>From $136</span></p>
+            <p>{props.title}</p>
+            <p><span>From {props.prices}</span></p>
         </div>
 
     )
