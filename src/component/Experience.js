@@ -18,6 +18,7 @@ const Experience = (props) => {
         display = null
     }
     
+    
     return (
         <div className="card-section">
             {badge && <div className="card--badge">{badge}</div>}
