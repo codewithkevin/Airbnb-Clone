@@ -14,7 +14,7 @@ const Experience = (props) => {
     return (
         <div className="card-section">
             {badge && <div className="card--badge">{badge}</div>}
-            {props.location === 'Norway' && <div className="card--badge1">Country</div>}
+            {props.location === 'Norway' && <div className="card--badge1">{props.location}</div>}
             <img src={props.img} className="card--image" alt="..." />
             <div className="card--stats">
                 <img src={props.star} className="card--star" alt="..." />
