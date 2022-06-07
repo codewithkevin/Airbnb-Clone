@@ -39,7 +39,7 @@ const App = () => {
 
       <div className='Experience'>
 
-      {cards}
+        {cards}
       
         
       </div>    
