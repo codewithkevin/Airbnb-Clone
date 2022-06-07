@@ -21,6 +21,7 @@ const App = () => {
         rating={item.stats.rating}
         reviewCount={item.stats.reviewCount}
         location={item.location}
+        openSpots={item.openSpots}
       />
     );
   });
@@ -36,7 +37,7 @@ const App = () => {
         <Herosection />
       </div> 
 
-      <section className='class-list'>
+      <section className='cards-list'>
 
         {cards}
       

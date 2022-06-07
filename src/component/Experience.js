@@ -6,6 +6,7 @@ const Experience = (props) => {
     
     return (
         <div className="card-section">
+            <div className="card--badge">SOLD OUT</div>
             <img src={props.img} className="card--image" alt="..." />
             <div className="card--stats">
                 <img src={props.star} className="card--star" alt="..." />

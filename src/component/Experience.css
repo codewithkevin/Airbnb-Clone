@@ -7,10 +7,11 @@
 
 .card-section {
     width: 175px;
-    font-size: 12px;         /* ADD */
-    display: inline-flex;          /* ADD */
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
     flex-direction: column;
-    padding: 10px; /* ADD */
+    position: relative;
 }
 
 .card--image {
@@ -37,4 +38,19 @@
 /* ADD */
 .card--price {
     margin-top: auto;
+}
+
+.card--badge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+    background-color: #F5F5F5;
+    color: #918E9B;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 9px;
 }
