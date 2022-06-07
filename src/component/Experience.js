@@ -11,7 +11,7 @@ const Experience = (props) => {
         badge = "Online"
     }
 
-    let display
+    let display 
     if (props.location !== 'Online') {
         display = props.location
     } else if (props.location === 'Online') {
