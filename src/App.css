@@ -18,3 +18,11 @@ body{
 section {
     padding: 20px;
 }
+
+.bold {
+    font-weight: bold;
+}
+
+.gray {
+    color: #918E9B;
+}
