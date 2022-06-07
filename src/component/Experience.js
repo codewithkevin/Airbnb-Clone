@@ -5,16 +5,16 @@ import './Experience.css'
 const Experience = (props) => {
 
     let badge
-    if (props.openSpots === 0) {
+    if (props.item.openSpots === 0) {
         badge = "Sold Out"
-    }else if (props.location === 'Online') {
+    }else if (props.item.location === 'Online') {
         badge = "Online"
     }
 
     let display 
-    if (props.location !== 'Online') {
-        display = props.location
-    } else if (props.location === 'Online') {
+    if (props.item.location !== 'Online') {
+        display = props.item.location
+    } else if (props.item.location === 'Online') {
         display = null
     }
     
