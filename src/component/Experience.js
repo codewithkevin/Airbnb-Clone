@@ -10,7 +10,7 @@ const Experience = (props) => {
             <div className="card--stats">
                 <img src={props.star} className="card--star" alt="..." />
                 <span>{props.rating}</span>
-                <span className="gray">{props.reviewCount}</span>
+                <span className="gray">({props.reviewCount}) •</span>
                 <span className="gray">{props.location}</span>
             
             </div>    

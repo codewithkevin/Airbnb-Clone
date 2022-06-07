@@ -14,14 +14,12 @@ const App = () => {
   const cards = data.map(item => {
     return (
       <Experience
+        title={item.title}
+        price={item.price}
         img={item.coverImg}
         star={item.Starimage}
         rating={item.stats.rating}
         reviewCount={item.stats.reviewCount}
-        description={item.description}
-        price={item.price}
-        location={item.location}
-        openSpots={item.openSpots}
       />
     );
   });
