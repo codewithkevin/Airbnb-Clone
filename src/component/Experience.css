@@ -1,16 +1,28 @@
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
 .card-section {
     width: 175px;
-    font-size: 12px;
-    font-size: 12px;
-    display: inline-block;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    vertical-align: top;
+    font-size: 12px;         /* ADD */
+    display: inline-flex;          /* ADD */
+    flex-direction: column;
+    padding: 10px; /* ADD */
 }
 
 .card--image {
     width: 100%;
     border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+/* ADD */
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .card--stats {
@@ -20,4 +32,9 @@
 
 .card--star {
     height: 14px;
+}
+
+/* ADD */
+.card--price {
+    margin-top: auto;
 }

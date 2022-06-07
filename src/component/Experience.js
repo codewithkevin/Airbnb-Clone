@@ -14,8 +14,8 @@ const Experience = (props) => {
                 <span className="gray">{props.location}</span>
             
             </div>    
-            <p>{props.title}</p>
-            <p><span>From ${props.price}</span></p>
+            <p className="card--title">{props.title}</p>
+            <p><span className="bold">From ${props.price}</span> / person</p>
         </div>
 
         // <img src={`../images/${props.img}`} className="card--image" />

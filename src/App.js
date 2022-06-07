@@ -36,12 +36,12 @@ const App = () => {
         <Herosection />
       </div> 
 
-      <div className='Experience'>
+      <section className='class-list'>
 
         {cards}
       
         
-      </div>    
+      </section>    
 
     </div> 
   )
