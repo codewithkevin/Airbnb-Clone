@@ -23,16 +23,16 @@ const Experience = (props) => {
         <div className="card-section">
             {badge && <div className="card--badge">{badge}</div>}
             {display && <div className="card--badge1">{display}</div>}
-            <img src={props.img} className="card--image" alt="..." />
+            <img src={props.item.img} className="card--image" alt="..." />
             <div className="card--stats">
-                <img src={props.star} className="card--star" alt="..." />
-                <span>{props.rating}</span>
-                <span className="gray">({props.reviewCount}) •</span>
-                <span className="gray">{props.location}</span>
+                <img src={props.item.star} className="card--star" alt="..." />
+                <span>{props.item.stats.rating}</span>
+                <span className="gray">({props.item.stats.reviewCount}) •</span>
+                <span className="gray">{props.item.location}</span>
             
             </div>    
-            <p className="card--title">{props.title}</p>
-            <p><span className="bold">From ${props.price}</span> / person</p>
+            <p className="card--title">{props.item.title}</p>
+            <p><span className="bold">From ${props.item.price}</span> / person</p>
         </div>
 
         // <img src={`../images/${props.img}`} className="card--image" />
