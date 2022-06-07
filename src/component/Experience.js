@@ -10,11 +10,18 @@ const Experience = (props) => {
     }else if (props.location === 'Online') {
         badge = "Online"
     }
+
+    let display
+    if (props.location !== 'Online') {
+        display = props.location
+    }else if (props.location === Number) {
+        display = props.location + " people"
+    }
     
     return (
         <div className="card-section">
             {badge && <div className="card--badge">{badge}</div>}
-            {props.location === 'Norway' && <div className="card--badge1">{props.location}</div>}
+            {display && <div className="card--badge1">{display}</div>}
             <img src={props.img} className="card--image" alt="..." />
             <div className="card--stats">
                 <img src={props.star} className="card--star" alt="..." />
