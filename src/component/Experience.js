@@ -14,8 +14,8 @@ const Experience = (props) => {
     let display
     if (props.location !== 'Online') {
         display = props.location
-    }else if (props.location === Number) {
-        display = props.location + " people"
+    } else if (props.location === 'Online') {
+        display = null
     }
     
     return (
