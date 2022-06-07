@@ -20,6 +20,7 @@ const App = () => {
         star={item.Starimage}
         rating={item.stats.rating}
         reviewCount={item.stats.reviewCount}
+        location={item.location}
       />
     );
   });
