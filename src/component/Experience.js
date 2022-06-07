@@ -3,10 +3,17 @@ import './Experience.css'
 
 
 const Experience = (props) => {
+
+    let badge
+    if (props.openSpots === 0) {
+        badge = "Sold Out"
+    }else if (props.location === 'Online') {
+        badge = "Online"
+    }
     
     return (
         <div className="card-section">
-            {props.openSpots == 0 && <div className="card--badge">SOLD OUT</div>}
+            {badge && <div className="card--badge">SOLD OUT</div>}
             <img src={props.img} className="card--image" alt="..." />
             <div className="card--stats">
                 <img src={props.star} className="card--star" alt="..." />
