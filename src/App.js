@@ -16,7 +16,6 @@ const App = () => {
       <Experience
         key={item.id}
         item={item}
-        // {...item}
       />
     );
   });
