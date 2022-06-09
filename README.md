@@ -1,6 +1,13 @@
 # Airbnb-Clone
 App at it early stage look forward to add more functionalities as i make progress in my react journey 
 
+# ROOMS COVERED 
+<ul>
+  <li>PROPS</li>
+  <li>MAPS</>
+  <li>RENDERING</li>
+</ul>  
+
 # Views 
 <img src="src/component/images/snap1.png">
 <img src="src/component/images/snap2.png">
