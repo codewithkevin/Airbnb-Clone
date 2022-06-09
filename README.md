@@ -1,9 +1,9 @@
 # Airbnb-Clone
 
 # Views 
-<img src="screenshoot/Screenshot (126).png" alt="">
-<img src="screenshoot/Screenshot (127).png" alt="">
-<img src="screenshoot/Screenshot (128).png" alt="">
+<img src="src/component/Images/snap1.png">
+<img src="src/component/Images/snap2.png">
+<img src="src/component/Images/snap3.png">
 
 # Getting Started with Create React App
 
