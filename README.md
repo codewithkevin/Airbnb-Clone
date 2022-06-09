@@ -1,9 +1,10 @@
 # Airbnb-Clone
+App at it early stage look forward to add more functionalities as i make progress in my react journey 
 
 # Views 
-<img src="src/component/Images/snap1.png">
-<img src="src/component/Images/snap2.png">
-<img src="src/component/Images/snap3.png">
+<img src="src/component/images/snap1.png">
+<img src="src/component/images/snap2.png">
+<img src="src/component/images/snap3.png">
 
 # Getting Started with Create React App
 
